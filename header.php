@@ -30,7 +30,7 @@
      <style type="text/css">
      .banner{
     max-width: 100%;
-    height: 333px;
+    height: 330px;
     background-image:url(<?php header_image(); ?>);
     background-size:100%;
     background-repeat:no-repeat;
