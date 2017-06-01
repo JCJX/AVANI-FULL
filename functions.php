@@ -342,6 +342,6 @@ function my_register_mce_button( $buttons ) {
 //独立下载面板
 function xdltable($atts, $content = null) {
     extract(shortcode_atts(array("source" => "","uptime" => "","fileinfo" => "","magnet" => "","xitong" => "","downlink" => "", ) , $atts));                  //定义一串数组
-    return '<table class="dltable"><tbody><tr><td style="background-image:url(https://www.slowlyeof.me/wp-content/uploads/2017/06/down.png)" rowspan="6" width="80"><p style="text-align: center;"><strong>附<br>件<br>下<br>载</strong></p></td><td><i class="fa fa-list-alt"></i>  文件来源 :' . $source . '</td><tr><td><i class="fa fa-th-large"></i>  上传时间 :' . $uptime . '</td></tr><tr><td><i class="fa fa-list-alt"></i>  文件详情 :' . $fileinfo . '</td><tr><td><i class="fa fa-magnet"></i>  磁力链接 :' . $magnet . '</td></tr><tr><td><i class="fa fa-download"></i>  下载地址 : ' . $content . '</td></tr></tbody></table>'; 
+    return '<table class="dltable"><tbody><tr><td style="background-color:#F9F9F9; background-image:url(http://i1.piimg.com/595276/09f3088581ea0e94.png);background-repeat:no-repeat; opacity=0.2;" rowspan="7" width="200"></td><tr><td><i class="fa fa-th-large"></i><p>附件下载</p></td></tr><td><i class="fa fa-list-alt"></i>  文件来源 :' . $source . '</td><tr><td><i class="fa fa-th-large"></i>  上传时间 :' . $uptime . '</td></tr><tr><td><i class="fa fa-list-alt"></i>  文件详情 :' . $fileinfo . '</td><tr><td><i class="fa fa-magnet"></i>  磁力链接 :' . $magnet . '</td></tr><tr><td><i class="fa fa-download"></i>  下载地址 : ' . $content . '</td></tr></tbody></table>'; 
 }
 add_shortcode('dltable', 'xdltable');
