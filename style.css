@@ -2246,7 +2246,7 @@ abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body,
             cursor: url('images/cursor.png'),auto;
         }
 
-.xm{
+.jbl{
             position:fixed;
             bottom:0;
             right:0;
@@ -2255,10 +2255,10 @@ abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body,
             transition:all .3s ease-in-out;           
             transform:translateY(3px);           
         }
-        .xm:hover{
+        .jbl:hover{
             -webkit-transform:translateY(0);
             -ms-transform:translateY(0);
         }
-        .xm img{
+        .jbl img{
             width:120px;
         }
