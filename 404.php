@@ -11,14 +11,15 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-
+         
 			<section class="error-404 not-found">
 				<header class="page-header">
-					<h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'avani' ); ?></h1>
+					<h1 class="page-title"><?php _e( '页面不见啦~.', 'avani' ); ?></h1>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
-					<p><?php _e( 'You might ensure the URL is spelled correctly, or if you followed a link here please let us know. Please try a search to reach your desired destination.', 'avani' ); ?></p>
+					<p><?php _e( '你应该确保拼写正确的URL,或者如果你提供一个链接在这里请让我们知道，我们会尝试搜索到你想要的目标.
+', 'avani' ); ?></p>
 
 					<?php
 					get_search_form();
@@ -26,7 +27,7 @@ get_header(); ?>
 
 				</div><!-- .page-content -->
 			</section><!-- .error-404 -->
-
+       
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
