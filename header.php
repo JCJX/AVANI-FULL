@@ -24,9 +24,35 @@
     <head profile="http://gmpg.org/xfn/11">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="google" value="notranslate">
-     <link rel='dns-prefetch' href='//s.w.org' />
+     <?php wp_head(); ?>
+	 <?php
+     if (is_home()){
+        $description = get_option('fullblog_description');
+        
+        $keywords = get_option('fullblog_keywords');
+    } elseif (is_single()){
+        if ($post->post_excerpt) {
+            $description  = $post->post_excerpt;
+    } else {
+   if(preg_match('/<p>(.*)<\/p>/iU',trim(strip_tags($post->post_content,"<p>")),$result)){
+        $post_content = $result['1'];
+       } else {
+        $post_content_r = explode("\n",trim(strip_tags($post->post_content)));
+        $post_content = $post_content_r['0'];
+       }
+             $description = substr($post_content,0,220); 
+      }
+        $keywords = "";
+        $tags = wp_get_post_tags($post->ID);
+        foreach ($tags as $tag ) {
+           $keywords = $keywords . $tag->name . ",";
+        }
+    }
+?>
+    <meta content="<?php echo trim($description); ?>" name="description"/>
+    <meta content="<?php echo rtrim($keywords,','); ?>" name="keywords"/>
+	<meta name="google" value="notranslate">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
      <style type="text/css">
      .banner{
     max-width: 100%;
@@ -44,9 +70,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<script type='text/javascript' src='//code.jquery.com/jquery-1.10.2.min.js?ver=3.3'></script>
 	<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/backtop.js'></script>
-	<script type='text/javascript' src='//code.jquery.com/jquery-migrate-1.2.1.js?ver=1.2.1'></script>
-	<?php wp_head(); ?>
-	
+	<script type='text/javascript' src='//code.jquery.com/jquery-migrate-1.2.1.js?ver=1.2.1'></script>	
 </head>
 
 <body <?php body_class(); ?>>
