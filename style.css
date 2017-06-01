@@ -2245,3 +2245,20 @@ abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body,
             padding: 0;
             cursor: url('images/cursor.png'),auto;
         }
+
+.xm{
+            position:fixed;
+            bottom:0;
+            right:0;
+            z-index:1;
+            font-size:0;
+            transition:all .3s ease-in-out;           
+            transform:translateY(3px);           
+        }
+        .xm:hover{
+            -webkit-transform:translateY(0);
+            -ms-transform:translateY(0);
+        }
+        .xm img{
+            width:120px;
+        }
