@@ -70,9 +70,12 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/<?php echo get_option('mytheme_colour'); ?>.css" type="text/css">
+	<link href="<?php bloginfo('template_url'); ?>/pace/pace-theme-barber-shop.css" rel="stylesheet" />
 	<script type='text/javascript' src='//code.jquery.com/jquery-1.10.2.min.js?ver=3.3'></script>
 	<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/backtop.js'></script>
-	<script type='text/javascript' src='//code.jquery.com/jquery-migrate-1.2.1.js?ver=1.2.1'></script>	
+	<script type='text/javascript' src='//code.jquery.com/jquery-migrate-1.2.1.js?ver=1.2.1'></script>
+	<script src="<?php bloginfo('template_url'); ?>/pace/pace.js"></script>    
+    
 </head>
 
 <body <?php body_class(); ?>>
