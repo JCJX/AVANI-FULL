@@ -42,10 +42,10 @@
 					background:#FFFFFF;
 					margin: 20px;
 					border-radius:10px;
-					box-shadow:1px 3px 13px #333333;
+					border: 1px solid #e6e6e6;
 					background-color: rgba(0,0,0,.3);
 					color: #FFF;
-    border: 1px solid #e6e6e6;
+    
 }
 
 .entry-title{
