@@ -14,6 +14,8 @@
 						border-radius:10px;
             box-shadow:1px 3px 13px #333333;
 						background-color: rgba(0,0,0,.3);
+    border: 1px solid #e6e6e6;
+
 
 }
 .entry-title a {
@@ -29,6 +31,7 @@
             background-color: rgba(0,0,0,.3);
 						color: #FFFFFF;
 						border-radius:10px;
+    border: 1px solid #e6e6e6;
 }
 .edit-link{
 	          margin: 20px;
@@ -42,6 +45,7 @@
 					box-shadow:1px 3px 13px #333333;
 					background-color: rgba(0,0,0,.3);
 					color: #FFF;
+    border: 1px solid #e6e6e6;
 }
 
 .entry-title{
@@ -54,15 +58,15 @@
 .entry-footer{
 	margin: 20px;
 	background:#FFFFFF;
-	box-shadow:1px 3px 13px #333333;
-	background-color: rgba(0,0,0,.3);
+	background-color: rgba(0,0,0,.0);
 	    color: #FFF;
 }
 .nav-menu{
 	padding:0px 0px;
 	background:#FFFFFF;
-	box-shadow:1px 3px 13px #333333;
 	background-color: rgba(0,0,0,.3);
+    border-radius: 0px 0px 20px 20px;
+
 }
 
 .wrap{
@@ -152,5 +156,23 @@
 }
 .label-search input{
     background-color: rgba(0,0,0,.3);
+    color: #FFF;
+}
+.widget{
+    margin: 20px;
+}
+.comments-title{
+    background-color: rgba(0,0,0,.3);
+    color: #FFF;
+    border: 1px solid #e6e6e6;
+}
+.comment-body{
+    background-color: rgba(0,0,0,.3);
+    color: #FFF;
+}
+.comment-body a{
+    color: #0FF;
+}
+.nav-next span{
     color: #FFF;
 }
