@@ -111,3 +111,22 @@
 .widget  search-field{
 	color: #FFF;
 }
+
+.comment-respond{
+    background-color: rgba(0,0,0,.3);
+    color: #FFF;
+}
+.comment-form p{
+    color: #FFF;
+}
+.comment-form input{
+    background-color: rgba(0,0,0,.3);
+    color: #FFF;
+}
+.comment-reply-title{
+    color: #FFF;
+}
+.comment-form-comment textarea{
+    background-color: rgba(0,0,0,.3);
+    color: #FFF;
+}
