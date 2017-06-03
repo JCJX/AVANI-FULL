@@ -138,3 +138,19 @@
     background-color: rgba(0,0,0,.3);
     color: #FFF;
 }
+.page-header{
+    background-color: rgba(0,0,0,.0);
+    color: #FFF;
+}
+.page-title{
+
+    color: #FFF;
+}
+.page-content{
+    background-color: rgba(0,0,0,.3);
+    color: #FFF;
+}
+.label-search input{
+    background-color: rgba(0,0,0,.3);
+    color: #FFF;
+}
