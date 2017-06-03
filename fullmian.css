@@ -176,3 +176,7 @@
 .nav-next span{
     color: #FFF;
 }
+.more-link{
+    background-color: rgba(0,0,0,.3);
+    color: #FFF;
+}
