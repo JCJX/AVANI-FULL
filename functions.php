@@ -350,3 +350,9 @@ add_shortcode('dltable', 'xdltable');
 **  SEO button box
 **/
 require_once(TEMPLATEPATH . '/theme-options.php');
+
+/**
+** theme css appear
+**/
+require_once(TEMPLATEPATH . '/theme-appear.php');
+
