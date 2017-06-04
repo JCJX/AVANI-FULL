@@ -2298,6 +2298,7 @@ abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body,
 }
 .social-media-icons a:link, .social-media-icons a:visited, .social-media-icons a:hover, .social-media-icons a:active, .social-media-icons a:focus {
     color: #CCCCCC;}
-.site-branding{
-	margin-top: 10px;
+.site-branding img{
+	margin-top:10px;
 }
+
