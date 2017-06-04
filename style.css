@@ -2266,3 +2266,35 @@ abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body,
 .site-description{
      color:#FFF;
 }
+
+
+.social-media-icons{
+	margin-right: auto;
+	margin-left: auto;
+	height:50px;
+	width:auto;
+	display:table;
+	margin:0 auto;
+	color: #FFF;
+}
+.iconmini{
+	float: left;
+	list-style-type:none;
+  margin: auto;
+	display:table;
+  margin:0 auto;
+	letter-spacing:5px;
+}
+.itimicon{
+	float: left;
+	text-align:center;
+	margin: auto;
+	display:table;
+	margin:0 auto;
+}
+.social-media-icons i{
+	text-align:center;
+	margin-bottom:20px
+}
+.social-media-icons a:link, .social-media-icons a:visited, .social-media-icons a:hover, .social-media-icons a:active, .social-media-icons a:focus {
+    color: #CCCCCC;}
