@@ -23,13 +23,14 @@ if ( $_POST['update_themeoptions'] == 'true' ) { themeoptions_update(); }
             <option value="fullnull" <?php if ($colour=='fullnull') { echo 'selected'; } ?>>默认</option>
         </select>
         <p>在使用深色背景图片的时候用透明效果最佳</p>
-
-        <h4>图片广告位（1）</h4>
-        <p><input type="text" name="ad1image" id="ad1image" size="32" value="<?php echo get_option('mytheme_ad1image'); ?>"/> 广告图片</p>
-        <p><input type="text" name="ad1url" id="ad1url" size="32" value="<?php echo get_option('mytheme_ad1url'); ?>"/> 广告链接</p>
-        <h4>图片广告位（2）</h4>
-        <p><input type="text" name="ad2image" id="ad2image" size="32" value="<?php echo get_option('mytheme_ad2image'); ?>"/> 广告图片</p>
-        <p><input type="text" name="ad2url" id="ad2url" size="32" value="<?php echo get_option('mytheme_ad2url'); ?>"/> 广告链接</p>
+          <h2>社交图标</h2>
+        <p><input type="text" name="ad1url" id="ad1url" size="32" value="<?php echo get_option('mytheme_ad1url'); ?>"/>推特</p>
+        <p><input type="text" name="ad2url" id="ad2url" size="32" value="<?php echo get_option('mytheme_ad2url'); ?>"/>脸书</p>
+        <p><input type="text" name="ad3url" id="ad3url" size="32" value="<?php echo get_option('mytheme_ad3url'); ?>"/>谷歌+</p>
+        <p><input type="text" name="ad4url" id="ad4url" size="32" value="<?php echo get_option('mytheme_ad4url'); ?>"/>汤不热</p>
+        <p><input type="text" name="ad5url" id="ad5url" size="32" value="<?php echo get_option('mytheme_ad5url'); ?>"/>github</p>
+        <p><input type="text" name="ad6url" id="ad6url" size="32" value="<?php echo get_option('mytheme_ad6url'); ?>"/>微博</p>
+        <p><input type="text" name="ad7url" id="ad7url" size="32" value="<?php echo get_option('mytheme_ad7url'); ?>"/>邮件</p>
         <h4><input type="checkbox" name="display_search" id="display_search" <?php echo get_option('mytheme_display_search'); ?> /> 显示搜索框</h4>
         <p><input type="submit" class="button-primary" name="bcn_admin_options" value="更新数据"/></p>
     </form>
@@ -41,10 +42,13 @@ function themeoptions_update()
 {
     // 数据更新验证
     update_option('mytheme_colour', $_POST['colour']);
-    update_option('mytheme_ad1image', $_POST['ad1image']);
     update_option('mytheme_ad1url', $_POST['ad1url']);
-    update_option('mytheme_ad2image', $_POST['ad2image']);
     update_option('mytheme_ad2url', $_POST['ad2url']);
+    update_option('mytheme_ad3url', $_POST['ad3url']);
+    update_option('mytheme_ad4url', $_POST['ad4url']);
+    update_option('mytheme_ad5url', $_POST['ad5url']);
+    update_option('mytheme_ad6url', $_POST['ad6url']);
+    update_option('mytheme_ad7url', $_POST['ad7url']);
     if ($_POST['display_search']=='on') { $display = 'checked'; } else { $display = ''; }
     update_option('mytheme_display_search', $display);
 }
