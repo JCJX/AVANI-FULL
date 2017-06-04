@@ -99,6 +99,51 @@
 					$description = get_bloginfo( 'description', 'display' );?>
 					<?php if ( $description || is_customize_preview() ) : ?>
 						<p class="site-description"><?php echo $description; ?></p>
+						<div class="social-media-icons">
+						<ul class="itimicon">
+                 <li class="iconmini">
+                          <a class="twitter" target="_blank" href="<?php echo get_option('mytheme_ad1url'); ?>">
+                            <i class="fa fa-twitter-square fa-2x" title="twitter"></i>
+                            <span class="screen-reader-text">twitter</span>
+                          </a>
+                        </li>
+                                  <li class="iconmini">
+                          <a class="facebook" target="_blank" href="<?php echo get_option('mytheme_ad2url'); ?>">
+                            <i class="fa fa-facebook-square fa-2x" title="facebook"></i>
+                            <span class="screen-reader-text">facebook</span>
+                          </a>
+                        </li>
+                                    <li class="iconmini">
+                          <a class="google-plus" target="_blank" href="<?php echo get_option('mytheme_ad3url'); ?>">
+                            <i class="fa fa-google-plus-square fa-2x" title="google-plus"></i>
+                            <span class="screen-reader-text">google-plus</span>
+                          </a>
+                        </li>
+                                    <li class="iconmini">
+                          <a class="tumblr" target="_blank" href="<?php echo get_option('mytheme_ad4url'); ?>">
+                            <i class="fa fa-tumblr-square fa-2x" title="tumblr"></i>
+                            <span class="screen-reader-text">tumblr</span>
+                          </a>
+                        </li>
+                                    <li class="iconmini">
+                          <a class="github" target="_blank" href="<?php echo get_option('mytheme_ad5url'); ?>">
+                            <i class="fa fa-github-square fa-2x" title="github"></i>
+                            <span class="screen-reader-text">github</span>
+                          </a>
+                        </li>
+                                    <li class="iconmini">
+                          <a class="weibo" target="_blank" href="<?php echo get_option('mytheme_ad6url'); ?>">
+                            <i class="fa fa-weibo fa-2x" title="weibo"></i>
+                            <span class="screen-reader-text">weibo</span>
+                          </a>
+                        </li>
+                                    <li class="iconmini">
+                          <a class="email" target="_blank" href="<?php echo get_option('mytheme_ad7url'); ?>">
+                            <i class="fa fa-envelope fa-2x" title="email"></i>
+                            <span class="screen-reader-text">email</span>
+                          </a>
+                        </li>
+                      </ul></div>
 					<?php endif; ?>
 				</div><!-- .title-area -->
 			</div><!-- .site-branding -->
