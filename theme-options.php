@@ -76,17 +76,17 @@
             <table class="form-table">
                 <tr>
                     <td>
-                        <textarea name="fullblog_keywords" id="fullblog_keywords" rows="1" cols="70">
-                            <?php echo get_option('fullblog_keywords'); ?>
-                        </textarea>
+                        <textarea name="fullblog_keywords" id="fullblog_keywords" rows="1" cols="70"><?php echo get_option('fullblog_keywords'); ?></textarea>
+                            
+                        
                         <span>首页keywords标签</span>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <textarea name="fullblog_description" id="fullblog_description" rows="3" cols="70">
-                            <?php echo get_option('fullblog_description'); ?>
-                        </textarea>
+                        <textarea name="fullblog_description" id="fullblog_description" rows="3" cols="70"><?php echo get_option('fullblog_description'); ?></textarea>
+                            
+                        
                         <span>首页description标签</span>
                     </td>
                 </tr>
@@ -98,9 +98,9 @@
             <table class="form-table">
                 <tr>
                     <td>
-                        <textarea name="fullblog_analytics" id="fullblog_analytics" rows="5" cols="70">
-                            <?php echo stripslashes(get_option('fullblog_analytics')); ?>
-                        </textarea>
+                        <textarea name="fullblog_analytics" id="fullblog_analytics" rows="5" cols="70"><?php echo stripslashes(get_option('fullblog_analytics')); ?></textarea>
+                            
+                        
                         <span>记录网站数据</span>
                     </td>
                 </tr>
