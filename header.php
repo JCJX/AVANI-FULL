@@ -23,7 +23,7 @@
     <html xmlns="http://www.w3.org/1999/xhtml">
     <head profile="http://gmpg.org/xfn/11">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
      <?php wp_head(); ?>
 	 <?php
      if (is_home()){
@@ -66,7 +66,6 @@
     -moz-box-shadow:2px 1px 13px #000000; -webkit-box-shadow:2px 1px 13px #000000; box-shadow:2px 1px 13px #000000;
     }</style>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/<?php echo get_option('mytheme_colour'); ?>.css" type="text/css">
