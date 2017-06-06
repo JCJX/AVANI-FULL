@@ -27,6 +27,7 @@
 		if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
 			<?php avani_posted_on(); ?>
+			阅读：<?php post_views(' ', ' 次'); ?>
 		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>
