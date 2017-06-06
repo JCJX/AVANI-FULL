@@ -356,3 +356,33 @@ require_once(TEMPLATEPATH . '/theme-options.php');
 **/
 require_once(TEMPLATEPATH . '/theme-appear.php');
 
+/**
+** theme post views
+**/
+function record_visitors()
+{
+	if (is_singular())
+	{
+	  global $post;
+	  $post_ID = $post->ID;
+	  if($post_ID)
+	  {
+		  $post_views = (int)get_post_meta($post_ID, 'views', true);
+		  if(!update_post_meta($post_ID, 'views', ($post_views+1)))
+		  {
+			add_post_meta($post_ID, 'views', 1, true);
+		  }
+	  }
+	}
+}
+add_action('wp_head', 'record_visitors');
+
+//取得文章的阅读次数
+function post_views($before = '(点击 ', $after = ' 次)', $echo = 1)
+{
+  global $post;
+  $post_ID = $post->ID;
+  $views = (int)get_post_meta($post_ID, 'views', true);
+  if ($echo) echo $before, number_format($views), $after;
+  else return $views;
+}
