@@ -180,3 +180,8 @@
     background-color: rgba(0,0,0,.3);
     color: #FFF;
 }
+.blockquote {
+    color: #33FFFF;
+    border-left: 4px solid rgba(166, 239, 255, 0.7);
+}
+
