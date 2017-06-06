@@ -12,6 +12,6 @@
 6. 各种小挂件
 7. 添加主题设置
 8. 添加头部社交图标
-![demo](http://i1.piimg.com/595276/4cbe583cd7f22b08.png)
+![demo](https://www.slowlyeof.me/wp-content/uploads/2017/06/Z7GOKQPT3XYGW48MFK.png)
 # 使用：后台-外观-主题-上传
 不支持IE8以下浏览器
