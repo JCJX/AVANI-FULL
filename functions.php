@@ -386,3 +386,8 @@ function post_views($before = '(点击 ', $after = ' 次)', $echo = 1)
   if ($echo) echo $before, number_format($views), $after;
   else return $views;
 }
+
+/**
+** Hide the version information
+**/
+remove_action('wp_head', 'wp_generator');
