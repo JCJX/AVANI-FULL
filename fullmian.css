@@ -184,4 +184,6 @@
     color: #33FFFF;
     border-left: 4px solid rgba(166, 239, 255, 0.7);
 }
-
+.comments-area{
+    margin:20px;
+}
