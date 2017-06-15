@@ -449,3 +449,7 @@ array( 'response' => 403 )
 register_activation_hook( __FILE__ , 'flush_rewrite_rules' );
 register_deactivation_hook( __FILE__, 'flush_rewrite_rules' );
 
+/**
+** 移除wordpress版本信息
+**/
+remove_action( 'wp_head', 'wp_generator' ); 
