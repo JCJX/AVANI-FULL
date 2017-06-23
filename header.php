@@ -85,7 +85,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'avani' ); ?></a>
 	<header id="masthead" class="site-header">
-		<div class="banner">
+		<div class="animated bounceIn banner">
 		<div class="header-items">
 			<div class="site-branding">
 				<?php avani_the_custom_logo();?>
@@ -152,7 +152,7 @@
 		</div><!-- .header-items -->
 
 		<?php if ( has_nav_menu( 'primary' ) ) : ?>
-			<nav id="main-navigation" class="main-navigation" aria-label="Primary Menu">
+			<nav id="main-navigation" class="animated lightSpeedIn main-navigation" aria-label="Primary Menu">
 				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
 					<?php
 					avani_svg( array( 'icon' => 'bars' ) );
