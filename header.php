@@ -80,7 +80,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-  <div class="jbl"><img src="<?php bloginfo('template_url'); ?>/images/kabli.png" /></div>
+  <div class="infinite animated pulse jbl"><img src="<?php bloginfo('template_url'); ?>/images/kabli.png" /></div>
  <div id="back-to-top" class="red" data-scroll="body" style="top:-46px;color:red;">回到顶部 </div>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'avani' ); ?></a>
