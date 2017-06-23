@@ -13,7 +13,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ||
 endif;
 ?>
 
-<aside id="secondary" class="sidebar widget-area">
+<aside id="secondary" class="animated bounceInUp sidebar widget-area">
 	<button aria-controls="secondary" aria-expanded="false" class="sidebar-toggle"></button>
 	<?php dynamic_sidebar( 'sidebar-1' ); ?>
 </aside><!-- #secondary -->
