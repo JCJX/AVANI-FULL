@@ -26,7 +26,7 @@
 	document.body.addEventListener('input', POWERMODE);
 	</script>
 		<div class="site-info">
-			<?php avani_footer_info(); ?>
+		<?php bloginfo(’name’); ?> is <?php avani_footer_info(); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
