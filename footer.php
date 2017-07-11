@@ -18,6 +18,7 @@
 	</div><!-- #content -->
 	<?php avani_footer_widgets(); ?>
 	<footer id="colophon" class="site-footer">
+        <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/<?php echo get_option('mytheme_colour'); ?>.js"></script>
 		<div class="site-info">
 			<?php avani_footer_info(); ?>
 		</div><!-- .site-info -->
