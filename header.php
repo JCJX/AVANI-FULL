@@ -170,7 +170,11 @@
 			</nav><!-- #site-navigation -->
 		<?php endif; ?>
 	</header><!-- #masthead -->
-
-
-
+	<script type="text/javascript">
+	   $(".nav-menu").hover( function() { 
+	   $(".site-content").css("z-index", "-1"); 
+	   }, function() { 
+	   $(".site-content").css("z-index", "0"); 
+	   }); 
+	</script>
 	<div id="content" class="site-content">
