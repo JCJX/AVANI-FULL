@@ -2301,4 +2301,11 @@ abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body,
 .site-branding img{
 	margin-top:10px;
 }
-//TODO
+.edit-link {
+    padding: 10px;
+    margin: 0px;
+    border-radius: 100px;
+    background: #FFCCFF;
+    width: 83px;
+    height: 45px;
+}
