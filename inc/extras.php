@@ -134,5 +134,5 @@ add_action( 'wp_enqueue_scripts', 'avani_link_color', 50 );
  * Function to show the footer info, copyright information.
  */
 function avani_footer_info() {
-	printf( __( 'Powered by %1$s', 'avani' ),'<a href="http://wordpress.org/" target="_blank" title="WordPress.org">WordPress</a>' );
+	printf(' Powered by <a href="http://wordpress.org/" target="_blank" title="WordPress.org">WordPress</a> 驱动'.' 使用 <a href="https://github.com/JCJX/AVANI-FULL" target="_blank" title="AVANI-FULL">AVANI-FULL</a> 主题' );
 }
