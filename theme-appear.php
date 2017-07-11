@@ -21,6 +21,7 @@ if ( $_POST['update_themeoptions'] == 'true' ) { themeoptions_update(); }
             <option value="fullmian" <?php if ($colour=='fullmian') { echo 'selected'; } ?> >透明</option>
             <option value="fullwhite" <?php if ($colour=='fullwhite') { echo 'selected'; } ?>>白色</option>
             <option value="fullnull" <?php if ($colour=='fullnull') { echo 'selected'; } ?>>默认</option>
+            <option value="fulllipin" <?php if ($colour=='fulllipin') { echo 'selected'; } ?>>H5</option>
         </select>
         <p>在使用深色背景图片的时候用透明效果最佳</p>
           <h2>社交图标</h2>
