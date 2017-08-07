@@ -14,5 +14,5 @@
 8. 添加头部社交图标
 ![demo](https://www.slowlyeof.me/wp-content/uploads/2017/06/20170606130541.jpg)
 # 使用：后台-外观-主题-上传
-不支持IE8以下浏览器
+不支持IE10以下浏览器
 demo https://avanifull.com/
