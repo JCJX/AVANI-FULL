@@ -11,14 +11,6 @@
 
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js no-svg">
-<!--[if IE 7]>
-<html class="ie ie7" lang="zh-CN">
-<![endif]-->
-<!--[if IE 8]>
-<html class="ie ie8" lang="zh-CN">
-<![endif]-->
-<!--[if !(IE 7) | !(IE 8)  ]><!-->
-<!--<![endif]-->
 <head>
     <html xmlns="http://www.w3.org/1999/xhtml">
     <head profile="http://gmpg.org/xfn/11">
