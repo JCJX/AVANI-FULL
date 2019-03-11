@@ -14,3 +14,4 @@
 8. 添加头部社交图标
 # 使用：后台-外观-主题-上传
 不支持IE10以下浏览器
+效果[premiumwp](https://www.slowlyeof.me)
