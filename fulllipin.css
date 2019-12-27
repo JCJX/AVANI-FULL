@@ -4,26 +4,25 @@
 }
 
 .entry-title{
-						padding:20px 20px;
-	          margin: 20px;
+	padding:20px 20px;
+	margin: 20px;
 }
 .entry-meta{
-	          padding:20px;
-	          margin: 20px;
-	          width:600px;
+	padding:20px;
+	margin: 20px;
+	width:600px;
 }
 .edit-link{
-	          padding:10px;
-	          margin: 0px;
-						border-radius:100px;
-						
-						width:83px;
-						height:45px;
+	padding:10px;
+	margin: 0px;
+	border-radius:100px;					
+	width:83px;
+	height:45px;
 }
 
 .entry-content{
-					padding:20px 20px;
-					margin: 20px;
+	padding:20px 20px;
+	margin: 20px;
 }
 
 
@@ -33,28 +32,28 @@
 }*/
 
 .wrap{
-					height: auto;
-					border-radius: 0px 0px 20px 20px;
+	height: auto;
+	border-radius: 0px 0px 20px 20px;
 }
 .site-navigation-fixed{
-					border-radius: 0px 0px 20px 20px;
+	order-radius: 0px 0px 20px 20px;
 }
 .widget{
-					border-radius: 12px 12px 10px 10px;
+	border-radius: 12px 12px 10px 10px;
 }
 .entry-footer{
-    margin: 20px;
+        margin: 20px;
 }
 .cat-links{
-     margin: 20px;
+        margin: 20px;
 }
 .meta-nav{
-     margin: 20px;
+        margin: 20px;
 }
 .post-title{
- margin: 20px;
+        margin: 20px;
 }
 .widget {
-    border:; 
-   background-color:transparent;
+        border:; 
+        background-color:transparent;
 }
