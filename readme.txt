@@ -93,3 +93,13 @@ Initial Release
 3. Customizer option to display Custom header image only on front page removed.
    Now, header image will be displayed on front page only by default.
 4. Minor typographical improvements.
+
+= 1.1.3 =
+1. Most Chinese cultures
+2. Custom header window display diagram
+3. Attachment download panel
+4. Remove the original header content
+5. The content block is independent with the bottom reduced
+6. All kinds of small pendants
+7. Add theme Settings
+8. Add a header social icon
